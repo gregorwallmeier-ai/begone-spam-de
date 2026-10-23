@@ -1,15 +1,21 @@
 # Begone-Spamsperrliste Deutschland (Community-Projekt)
 
-**Stand: 22.10.2026 · Version 1.0 · Experimentelle Community-Zusammenstellung**
+**Stand: 23.10.2026 · Version 1.1 · Experimentelle Community-Zusammenstellung**
 
-Eine kostenlose, manuell zusammengestellte XML-Sperrliste für [Begone](https://begone.app/) auf dem iPhone.
+Eine kostenlose, manuell zusammengestellte XML-Sperrliste für [Begone](https://begone.app/) auf dem iPhone. Sie richtet sich an Nutzer in Deutschland und enthält neben deutschen Nummern auch ausdrücklich gemeldete unerwünschte Kontakte aus dem Ausland.
 
 ## Inhalt
 
-- [**Sperrliste herunterladen**](begone-de-gemeldete-nummern.xml): 53 **einzeln öffentlich gemeldete** deutsche Telefonnummern als Sperrregeln. Keine Wildcards oder flächendeckenden Vorwahl-Sperren.
-- [**Quellenübersicht**](quellen.csv): Zuordnung der Nummern zu öffentlich zugänglichen Meldungen bei Clever Dialer, PhoneBlock oder Spam-Barometer (Auswertungsstand Oktober 2026).
+- [**Sperrliste herunterladen**](begone-de-gemeldete-nummern.xml): 54 einzelne Telefonnummern als Sperrregeln: 53 bisherige deutsche Einträge und eine US-Nummer aufgrund einer direkten Nutzermeldung. Keine Wildcards oder flächendeckenden Vorwahl-Sperren.
+- [**Quellenübersicht**](quellen.csv): Zuordnung der bisherigen 53 Nummern zu Meldungen bei Clever Dialer, PhoneBlock oder Spam-Barometer (Auswertungsstand Oktober 2026). Die ergänzte US-Nummer ist separat als direkte Nutzermeldung mit Datum und Einschränkungen dokumentiert.
 - [**tellows – Integrationsstatus**](TELLOWS_INTEGRATION.md): mögliche künftige Datenquelle, derzeit **nicht** eingebunden.
 - [**Änderungsprotokoll**](CHANGELOG.md).
+
+### Unerwünschter Kontakt ist nicht gleich nachgewiesener Spam oder Betrug
+
+`+16465185265` wurde am 23.10.2026 auf ausdrücklichen Wunsch eines Nutzers nach einem nicht angenommenen Anruf aufgenommen. Der Eintrag trägt die Bezeichnung **„Unerwünschter Kontakt – Nutzermeldung“**. Identität und Anrufzweck sind nicht unabhängig bestätigt. Dies ist eine einzelne subjektive Meldung, keine allgemeine Spamfeststellung und kein Nachweis von Betrug oder rechtswidriger Werbung. Die Regel betrifft nur diese vollständige internationale Nummer, keinen Nummernblock. Andere Nutzer können diese Nummer von der Sperre ausnehmen.
+
+Die 53 bisherigen Einträge bleiben in Version 1.1 unverändert; ihre Quellen wurden mit dieser Ergänzung nicht erneut bewertet.
 
 **Wichtig:** Meldungen von Nutzern sind keine unabhängig bewiesenen Betrugsfälle. Ein angezeigter Anruf kann eine gefälschte Rufnummer tragen (Caller-ID-Spoofing). Telefonnummern können später neu vergeben werden. Eine Sperre kann dadurch legitime Anrufe treffen.
 
@@ -24,7 +30,7 @@ Die XML-Syntax wurde maschinell geprüft. Der erfolgreiche Import auf unterschie
 
 ## Quellen und Lizenz
 
-Es handelt sich um eine begrenzte redaktionelle Auswahl öffentlich gemeldeter Nummern; **keine vollständige Kopie fremder Datenbanken**. Die Quelle ist je Nummer in `quellen.csv` angegeben. Keine übernommenen Kommentartexte oder markenrechtlichen Bezeichnungen.
+Es handelt sich um eine begrenzte redaktionelle Auswahl öffentlich gemeldeter Nummern, ergänzt um ausdrücklich beauftragte und entsprechend gekennzeichnete direkte Nutzermeldungen; **keine vollständige Kopie fremder Datenbanken**. Die Quelle ist je Nummer in `quellen.csv` angegeben. Keine übernommenen Kommentartexte oder markenrechtlichen Bezeichnungen.
 
 Die Daten von *tellows* sind **nicht** in dieser Version enthalten. Für eine systematische Nutzung oder öffentliche Weitergabe von tellows-Scorelisten sollte zuvor eine geeignete Lizenz oder Freigabe von tellows eingeholt werden. Das Projekt ist weder mit tellows noch mit Begone verbunden.
 
