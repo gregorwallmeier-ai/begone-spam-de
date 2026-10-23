@@ -532,5 +532,15 @@
     <key>title</key>
     <string>DE Spam-Meldungen 2026-10</string>
   </dict>
+  <dict>
+    <key>addNational</key>
+    <string>false</string>
+    <key>category</key>
+    <string>0</string>
+    <key>number</key>
+    <string>+16465185265</string>
+    <key>title</key>
+    <string>Unerwünschter Kontakt – Nutzermeldung</string>
+  </dict>
 </array>
 </plist>
