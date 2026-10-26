@@ -1,13 +1,13 @@
 # Begone-Spamsperrliste Deutschland (Community-Projekt)
 
-**Stand: 23.10.2026 · Version 1.1 · Experimentelle Community-Zusammenstellung**
+**Stand: 26.10.2026 · Version 1.2 · Experimentelle Community-Zusammenstellung**
 
 Eine kostenlose, manuell zusammengestellte XML-Sperrliste für [Begone](https://begone.app/) auf dem iPhone. Sie richtet sich an Nutzer in Deutschland und enthält neben deutschen Nummern auch ausdrücklich gemeldete unerwünschte Kontakte aus dem Ausland.
 
 ## Inhalt
 
-- [**Sperrliste herunterladen**](begone-de-gemeldete-nummern.xml): 54 einzelne Telefonnummern als Sperrregeln: 53 bisherige deutsche Einträge und eine US-Nummer aufgrund einer direkten Nutzermeldung. Keine Wildcards oder flächendeckenden Vorwahl-Sperren.
-- [**Quellenübersicht**](quellen.csv): Zuordnung der bisherigen 53 Nummern zu Meldungen bei Clever Dialer, PhoneBlock oder Spam-Barometer (Auswertungsstand Oktober 2026). Die ergänzte US-Nummer ist separat als direkte Nutzermeldung mit Datum und Einschränkungen dokumentiert.
+- [**Sperrliste herunterladen**](begone-de-gemeldete-nummern.xml): 58 einzelne Telefonnummern als Sperrregeln: 57 deutsche Einträge und eine US-Nummer aufgrund einer direkten Nutzermeldung. Keine Wildcards oder flächendeckenden Vorwahl-Sperren.
+- [**Quellenübersicht**](quellen.csv): Zuordnung aller 58 Nummern zu öffentlich nachvollziehbaren Meldungen bei Clever Dialer, PhoneBlock, Spam-Barometer oder zu der gesondert gekennzeichneten direkten Nutzermeldung. Vier neue deutsche Einträge (Prüfdatum 26.10.2026) sind mit Einzel-URL, Datum und Risiko dokumentiert; drei schwach belegte Bestandsnummern mit Prüfhinweis gekennzeichnet.
 - [**tellows – Integrationsstatus**](TELLOWS_INTEGRATION.md): mögliche künftige Datenquelle, derzeit **nicht** eingebunden.
 - [**Änderungsprotokoll**](CHANGELOG.md).
 
@@ -15,7 +15,9 @@ Eine kostenlose, manuell zusammengestellte XML-Sperrliste für [Begone](https://
 
 `+16465185265` wurde am 23.10.2026 auf ausdrücklichen Wunsch eines Nutzers nach einem nicht angenommenen Anruf aufgenommen. Der Eintrag trägt die Bezeichnung **„Unerwünschter Kontakt – Nutzermeldung“**. Identität und Anrufzweck sind nicht unabhängig bestätigt. Dies ist eine einzelne subjektive Meldung, keine allgemeine Spamfeststellung und kein Nachweis von Betrug oder rechtswidriger Werbung. Die Regel betrifft nur diese vollständige internationale Nummer, keinen Nummernblock. Andere Nutzer können diese Nummer von der Sperre ausnehmen.
 
-Die 53 bisherigen Einträge bleiben in Version 1.1 unverändert; ihre Quellen wurden mit dieser Ergänzung nicht erneut bewertet.
+Die 53 deutschen Einträge aus Version 1.1 bleiben als Sperrregeln unverändert; drei davon sind wegen geringer aktueller Beleglage in `quellen.csv` zur Nachprüfung markiert. Es wurde keine dieser Nummern ohne belastbaren Gegenbeleg gelöscht.
+
+**Ergänzungen vom 26.10.2026:** Vier einzelne, bei PhoneBlock öffentlich dokumentierte deutsche Rufnummern wurden aufgenommen. Bei drei Nummern berichten Nutzer über angebliche Gewinnspiel- oder Lotto-Abos (hohe Risikoeinstufung als *Verdacht*); eine Nummer ist als störender Scherzanrufdienst eingestuft (mittleres Belästigungsrisiko, kein Betrugsvorwurf). Die Einzelbelege, die Daten der letzten Beschwerden und die Risikoeinstufung stehen in `quellen.csv`. Nach Sichtung der aktuellen Maßnahmenliste der Bundesnetzagentur fand sich für diese vier Rufnummern kein dort dokumentierter Abschaltbescheid; dies ist kein Nachweis, dass die Rufnummern tatsächlich aktiv oder den angezeigten Anrufern zuzuordnen sind.
 
 **Wichtig:** Meldungen von Nutzern sind keine unabhängig bewiesenen Betrugsfälle. Ein angezeigter Anruf kann eine gefälschte Rufnummer tragen (Caller-ID-Spoofing). Telefonnummern können später neu vergeben werden. Eine Sperre kann dadurch legitime Anrufe treffen.
 
