@@ -128,9 +128,29 @@
     <key>category</key>
     <string>0</string>
     <key>number</key>
+    <string>+491632210807</string>
+    <key>title</key>
+    <string>DE Verdacht auf Gewinnspielspam 2026-10</string>
+  </dict>
+  <dict>
+    <key>addNational</key>
+    <string>true</string>
+    <key>category</key>
+    <string>0</string>
+    <key>number</key>
     <string>+491634124612</string>
     <key>title</key>
     <string>DE Spam-Meldungen 2026-10</string>
+  </dict>
+  <dict>
+    <key>addNational</key>
+    <string>true</string>
+    <key>category</key>
+    <string>0</string>
+    <key>number</key>
+    <string>+491637875622</string>
+    <key>title</key>
+    <string>DE Verdacht auf Gewinnspielspam 2026-10</string>
   </dict>
   <dict>
     <key>addNational</key>
@@ -151,6 +171,16 @@
     <string>+4917613854233</string>
     <key>title</key>
     <string>DE Spam-Meldungen 2026-10</string>
+  </dict>
+  <dict>
+    <key>addNational</key>
+    <string>true</string>
+    <key>category</key>
+    <string>0</string>
+    <key>number</key>
+    <string>+4917650642602</string>
+    <key>title</key>
+    <string>DE Unerwünschte Scherzanrufe 2026-10</string>
   </dict>
   <dict>
     <key>addNational</key>
@@ -341,6 +371,16 @@
     <string>+4922069469631</string>
     <key>title</key>
     <string>DE Spam-Meldungen 2026-10</string>
+  </dict>
+  <dict>
+    <key>addNational</key>
+    <string>true</string>
+    <key>category</key>
+    <string>0</string>
+    <key>number</key>
+    <string>+4922376922894</string>
+    <key>title</key>
+    <string>DE Verdacht auf Gewinnspielspam 2026-10</string>
   </dict>
   <dict>
     <key>addNational</key>
