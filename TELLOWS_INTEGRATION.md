@@ -1,19 +1,20 @@
-# tellows – geplante Integration
+# Tellows – Integrationsstatus
 
-**Stand: 22.10.2026 – noch nicht integriert.**
+**Stand: 26.10.2026 · nicht integriert**
 
-tellows bietet eine Scorelist-API (regelmäßig aktualisierte Rufnummernlisten mit Risikobewertungen) und eine Live-API zur Einzelprüfung.
+Die aktuelle XML-Sperrliste und Quellenübersicht enthalten keine aus Tellows übernommenen Daten. Eine geeignete kostenlose Freigabe zur öffentlichen Weiterverbreitung von Datenbanken oder Scorelisten ist im Repository nicht belegt. Auch eine erfolgte Kontaktaufnahme wird hier nicht behauptet.
 
-Eine öffentliche Übernahme kompletter tellows-Listen ist ohne entsprechende Lizenz **nicht zulässig**. Die übliche private API-Lizenz ist nur für private Nutzung bestimmt; die gewerbliche Lizenz untersagt die Veröffentlichung der Daten.
+## Verbindliche Projektgrenze
 
-Quellen:
+Ohne ausdrückliche geeignete schriftliche kostenlose Freigabe keine Tellows-Datenbanken oder Scorelisten abrufen, importieren oder öffentlich weitergeben. Keine kostenpflichtige API, kein Probeabo und kein zusätzlicher Dienst. Manuelle Sichtbarkeit einzelner Webseiten ist kein Beleg für ein Weitergaberecht.
+
+## Zurückgestellte Möglichkeit
+
+Falls künftig eine geeignete Freigabe vorliegt, müssen Umfang, Weitergabe, Attribution, Aktualisierung und Korrekturen daraus nachvollziehbar dokumentiert werden. Erst dann eine technische Einbindung prüfen. Bis dahin hat die Pflege der bestehenden öffentlichen Einzelquellen Vorrang.
+
+Die frühere Dokumentation nannte diese Anbieterinformationen als mögliche Ausgangspunkte. Sie sind keine für dieses Projekt nachgewiesene Lizenz:
 - https://shop.tellows.de/de/tellows-api-key.html
 - https://shop.tellows.de/de/tellows-api-key-fur-die-gewerbliche-nutzung-kmu.html
 - https://www.tellows.com/s/about-en/tellows-api-partnership-program
 
-Geplant:
-1. Eine ausdrückliche Freigabe für ein kostenloses, öffentliches Community-Projekt einholen.
-2. Bedingungen für Weitergabe, Quelle, Updates und Korrekturen schriftlich vereinbaren.
-3. Erst anschließend eine Scorelist-Importpipeline mit definierten Qualitätskriterien implementieren.
-
-Bis dahin wird tellows ausschließlich zur manuellen Prüfung einzelner Rufnummern genutzt.
+Keine Aussage über eine tatsächlich erfolgte individuelle Tellows-Prüfung oder eine allgemeine rechtliche Zulässigkeit aus diesen Links ableiten.

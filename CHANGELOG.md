@@ -1,5 +1,17 @@
 # Änderungsprotokoll
 
+## 1.3 — 26.10.2026
+
+- Alle **57 deutschen Bestandsnummern** anhand tatsächlich gelesener Einzelseiten von PhoneBlock (28), Clever Dialer (9) und Wer hat mich angerufen / Spam-Barometer (20) geprüft. Die zuvor 50 fehlenden Einzel-URLs ergänzt. CSV um Quellen-URL, Prüfdatum, Meldedatum-Hinweis und Prüfstatus erweitert.
+- Werte aus den gelesenen Seitenständen dokumentiert, inklusive Cachegrenzen. Frühere als „Konfidenzwert“ bezeichnete PhoneBlock-Bestandszahlen präzisiert: Sperrstimmen und Prozent-Konfidenz sind unterschiedliche Größen. Blockwerte rechtfertigen keine Sperre ungemeldeter Nachbarnummern.
+- **8** PhoneBlock-Einträge mit schwacher Evidenz, **3** Einträge mit widersprüchlichen Community-Signalen, **5** mit wenigen negativen Bewertungen und **4** mit offener Aktualität zur Nachprüfung markiert. Bei **14** weiteren Einträgen möglichen Blockeinfluss auf die Konfidenz gekennzeichnet. Alle 57 deutschen Regeln bleiben vorläufig aktiv; Prüfhinweise deaktivieren keine XML-Regel und sind keine Freigabe als bewiesener Spam.
+- Die drei bereits in Version 1.2 markierten Rufnummern erneut geprüft. Ihre geringe PhoneBlock-Evidenz ist weiterhin sichtbar, kein belastbarer Nachweis einer Fehlklassifizierung. Im Zuge der vollständigen Quellenprüfung weitere Prüffälle erkannt.
+- Persönliche US-Einzelsperre `+16465185265` aus öffentlicher XML und aktueller CSV entfernt: ein unerwünschter nicht angenommener Anruf ohne unabhängigen öffentlichen Spam-Beleg genügt nicht für die Community-Liste. Eine privat gewünschte Sperre kann bestehen bleiben. Die historische Dokumentation bleibt erhalten.
+- Änderungen: **+0 / −1**, neuer Stand **57 deutsche Einzelnummern**. Keine Wildcards oder zusätzlichen Nummernblöcke, keine Tellows-Daten.
+- Importanleitung um private Sicherung, Wiederholungsimport und Behandlung entfernter Regeln ergänzt. Diese Abläufe sind auf dem iPhone noch zu testen, automatische GitHub-Synchronisierung bleibt unbestätigt.
+- Tellows-Dokumentation auf den belegten Projektstatus beschränkt, keine Lizenzfreigabe oder Kontaktaufnahme behauptet.
+- Die vorhandene Wochenaufgabe wurde am 26.10.2026 wieder aktiviert und um strengere Quellen- und Erfolgskontrollen ergänzt. Der vorherige Laufstatus „fehlgeschlagen“ trotz veröffentlichter Version 1.2 bleibt ungeklärt. Aktivierung beweist keinen erfolgreichen Folgelauf.
+
 ## 1.2 — 26.10.2026
 
 - Vier einzeln öffentlich belegte deutsche Rufnummern ergänzt: `+491632210807`, `+491637875622`, `+4917650642602` und `+4922376922894` (PhoneBlock-Einzelseiten, geprüft am 26.10.2026).
