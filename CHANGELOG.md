@@ -1,5 +1,14 @@
 # Änderungsprotokoll
 
+## 1.4 — 02.11.2026
+
+- **+5 / −0**, neuer Stand **62 eindeutig belegte deutsche Einzelnummern**. Neue Regeln: `+4915510453140` (mittel-hoch: Gewinnspiel-/KI-Anrufe), `+4915510465755` (mittel-hoch: Serien-/Ping-/Gewinnspielanrufe), `+4921130194060` (hoch: Serien-/Spam-Anrufe), `+4921130194065` und `+4930330755669` (hoch: Verdacht auf Gewinnspiel-/Lottoabo-Anrufe). Das sind Risikoeinschätzungen aus Meldungen, keine Feststellung einer Straftat.
+- Für jede neue Einzelnummer am 02.11.2026 eine konkrete PhoneBlock- und eine konkrete Clever-Dialer-Einzelseite gelesen. Beide URLs, die jeweils ausgewiesenen Meldedaten, Quellenwerte und wichtige Cache-/Zählergrenzen stehen in `quellen.csv`. PhoneBlock-Sperrstimmen sind keine nachgewiesenen unabhängigen Beschwerden. Einzelnummern-Stimmen und Block-Stimmen wurden getrennt erfasst, Anbieter-Scores nicht gleichgesetzt.
+- Maßnahmenliste der Bundesnetzagentur für die letzten sechs Monate am 02.11.2026 eingesehen: unter den fünf konkreten Nummern kein Treffer in der angezeigten Tabelle, deren jüngster sichtbarer Bescheid vom 07.10.2026 stammt. Kein umfassender amtlicher Negativnachweis. Abschaltungsmaßnahmen und reine SMS-/Fax-/Messenger-Fälle nicht als neue Anrufsperren übernommen. Clever-Dialer-Archiv zeigte als letzten Monatsbericht weiterhin August 2026 (Veröffentlichung 01.09.2026).
+- **Offene neue Prüffälle, keine zusätzlichen Sperren:** `+4921130194058` (Clever Dialer meldet störende Anrufe, PhoneBlock zeigt auch eine Legitimitätswertung) und `+4930499189816` (wiederholte, aber teils als reguläre Meinungsforschung beschriebene Anrufe). Keine Übernahme benachbarter Rufnummern allein aus Blockhäufungen.
+- Zwei ältere schwache bzw. widersprüchliche Prüffälle (`+4915510656326`, `+49695095438980`) sowie Community-Widersprüche (`+4915888361621`, `+4946190279862`) stichprobenartig nachgelesen. Teilweise lagen im Web-Lesedienst ältere Cachefassungen vor. Weder eine nachweisliche Fehlzuordnung noch eine gesicherte Abschaltung belegt. Die 57 Bestandsregeln, ihre alten Prüfdaten und die bereits markierten offenen Qualitätsfälle bleiben deshalb unverändert; die Stichprobe ist keine erneute vollständige Verifikation.
+- XML-/CSV-Einzelnummernabgleich, E.164-Eindeutigkeit, XML-Dict-Struktur und Risikodokumentation vor Veröffentlichung geprüft. Keine Wildcards, keine Tellows-Daten, keine Zusatzkosten. GitHub-Veröffentlichung ist **keine bestätigte automatische iPhone-Übernahme**; entfernte Regeln müssen auf bereits importierten Geräten separat geprüft werden.
+
 ## 1.3 — 26.10.2026
 
 - Alle **57 deutschen Bestandsnummern** anhand tatsächlich gelesener Einzelseiten von PhoneBlock (28), Clever Dialer (9) und Wer hat mich angerufen / Spam-Barometer (20) geprüft. Die zuvor 50 fehlenden Einzel-URLs ergänzt. CSV um Quellen-URL, Prüfdatum, Meldedatum-Hinweis und Prüfstatus erweitert.

@@ -28,6 +28,26 @@
     <key>category</key>
     <string>0</string>
     <key>number</key>
+    <string>+4915510453140</string>
+    <key>title</key>
+    <string>DE Verdacht auf Gewinnspiel-/KI-Spam 2026-11</string>
+  </dict>
+  <dict>
+    <key>addNational</key>
+    <string>true</string>
+    <key>category</key>
+    <string>0</string>
+    <key>number</key>
+    <string>+4915510465755</string>
+    <key>title</key>
+    <string>DE Belästigende Serien-/Gewinnspielanrufe 2026-11</string>
+  </dict>
+  <dict>
+    <key>addNational</key>
+    <string>true</string>
+    <key>category</key>
+    <string>0</string>
+    <key>number</key>
     <string>+4915510574632</string>
     <key>title</key>
     <string>DE Spam-Meldungen 2026-10</string>
@@ -211,6 +231,26 @@
     <string>+4921121090408</string>
     <key>title</key>
     <string>DE Spam-Meldungen 2026-10</string>
+  </dict>
+  <dict>
+    <key>addNational</key>
+    <string>true</string>
+    <key>category</key>
+    <string>0</string>
+    <key>number</key>
+    <string>+4921130194060</string>
+    <key>title</key>
+    <string>DE Belästigende Serien-/Spam-Anrufe 2026-11</string>
+  </dict>
+  <dict>
+    <key>addNational</key>
+    <string>true</string>
+    <key>category</key>
+    <string>0</string>
+    <key>number</key>
+    <string>+4921130194065</string>
+    <key>title</key>
+    <string>DE Verdacht auf Gewinnspiel-/Lottoabo-Spam 2026-11</string>
   </dict>
   <dict>
     <key>addNational</key>
@@ -441,6 +481,16 @@
     <string>+4930330755665</string>
     <key>title</key>
     <string>DE Spam-Meldungen 2026-10</string>
+  </dict>
+  <dict>
+    <key>addNational</key>
+    <string>true</string>
+    <key>category</key>
+    <string>0</string>
+    <key>number</key>
+    <string>+4930330755669</string>
+    <key>title</key>
+    <string>DE Verdacht auf Gewinnspiel-/Lottoabo-Spam 2026-11</string>
   </dict>
   <dict>
     <key>addNational</key>
